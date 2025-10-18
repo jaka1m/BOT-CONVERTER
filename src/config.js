@@ -50,7 +50,7 @@ export async function rotateconfig(chatId, text) {
       return;
     }
 
-    const statusResponse = await fetch(`https://api.checker-ip.web.id/check?ip=${ip}:${port}`);
+    const statusResponse = await fetch(`https://geovpn.vercel.app/check?ip=${ip}:${port}`);
     const ipData = await statusResponse.json();
 
     if (ipData.status !== "ACTIVE") {
