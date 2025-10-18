@@ -20,8 +20,8 @@ const WILDCARD_OPTIONS = Object.entries(WILDCARD_MAP).map(
   ([value, text]) => ({ text, value })
 );
 
-const DEFAULT_HOST = "joss.krikkrik.tech";
-const API_URL = "https://api.checker-ip.web.id/check?ip=";
+const DEFAULT_HOST = "joss.krikkrik.xyz";
+const API_URL = "https://geovpn.vercel.app/check?ip=";
 
 export async function fetchIPData(ip, port) {
   try {
