@@ -42,7 +42,7 @@ export async function randomconfig() {
       return '⚠️ Data IP atau Port tidak lengkap dari daftar proxy.';
     }
 
-    const checkResponse = await fetch(`https://api.checker-ip.web.id/check?ip=${ip}:${port}`);
+    const checkResponse = await fetch(`https://geovpn.vercel.app/check?ip=${ip}:${port}`);
     if (!checkResponse.ok) {
       return `⚠️ Gagal cek status IP ${ip}:${port}.`;
     }
