@@ -28,7 +28,7 @@ export default {
       const serviceName = 'joss';
 
       // Mengganti rootDomain menjadi "joss.krikkrik.tech"
-      const rootDomain = 'gpj1.dpdns.org';
+      const rootDomain = 'krikkrik.xyz';
 
       const globalBot = new KonstantaGlobalbot({
         apiKey,
