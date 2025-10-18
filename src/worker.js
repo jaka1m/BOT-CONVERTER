@@ -19,15 +19,15 @@ export default {
       const ownerId = Number(env.OWNER_ID);
 
       // Mengganti Base64 dengan string biasa
-      const apiKey = '1d158d0efc4eef787222cefff0b6d20981462';
-      const accountID = '87993bf4d63139b1d613cbb03c83e5de';
-      const zoneID = '46379589cdb3be16cc113fa2582be2f9';
+      const apiKey = 'e1d2b64d4da5e42f24c88535f12f21bc84d06';
+      const accountID = '723b4d7d922c6af940791b5624a7cb05';
+      const zoneID = 'ec634538140c7093e6d060fc87a83c02';
       const apiEmail = 'paoandest@gmail.com';
 
       // Mengganti serviceName menjadi "joss"
       const serviceName = 'joss';
 
-      // Mengganti rootDomain menjadi "joss.krikkrik.tech"
+      // Mengganti rootDomain menjadi "joss.krikkrik.xyz"
       const rootDomain = 'krikkrik.xyz';
 
       const globalBot = new KonstantaGlobalbot({
