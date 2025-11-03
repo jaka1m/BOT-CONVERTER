@@ -1,4 +1,4 @@
-name = "telegram-bot"
+name = "geovpn"
 main = "src/worker.js"
 compatibility_date = "2025-06-01"
 workers_dev = true
